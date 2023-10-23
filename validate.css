@@ -1,0 +1,20 @@
+.form_group.error input{
+    border: 1px solid red;
+}
+.form_group.success input{
+    border: 1px solid green;
+}
+.form_group.error .fa-circle-exclamation{
+    visibility: visible;
+    color: red;
+}
+.form_group.success .fa-circle-exclamation{
+    visibility: hidden;
+}
+.form_group.success .fa-circle-check{
+    visibility: visible;
+    color:green;
+}
+.form_group.error .fa-circle-check{
+    visibility: hidden;
+}
